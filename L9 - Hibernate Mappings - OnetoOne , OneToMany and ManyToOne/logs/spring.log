@@ -1,0 +1,24 @@
+2022-09-16 15:10:37.994  WARN [,,] 4196 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h32m7s647ms274µs700ns).
+2022-09-16 16:38:46.403  WARN [,,] 4196 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m38s14ms961µs400ns).
+2022-09-16 18:00:01.987  WARN [,,] 4196 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m44s671ms82µs600ns).
+2022-09-16 18:48:22.677 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-09-16 18:48:22.682 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a82c5f1, started on Wed Sep 07 20:15:47 CEST 2022
+2022-09-16 18:48:22.742 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-09-16 18:48:22.761 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-09-16 18:48:22.761 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2022-09-16 18:48:22.866 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2022-09-16 18:48:22.867 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2022-09-16 18:48:22.868 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2022-09-16 18:48:22.878 DEBUG [,,] 4196 --- [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-16 18:48:22.886  INFO [,,] 4196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-16 18:48:22.897  INFO [,,] 4196 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-09-16 18:48:22.920 ERROR [,,] 4196 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: 
+    alter table books 
+       drop 
+       foreign key FK3to952qdy9vhmwe2hdniqswjt
+2022-09-16 18:48:22.926 ERROR [,,] 4196 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000478: Unsuccessful: 
+    alter table books 
+       drop 
+       foreign key FK14w0sdc8q25e3r6sefubk1ywa
+2022-09-16 18:48:23.111  INFO [,,] 4196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-16 18:48:23.145  INFO [,,] 4196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
